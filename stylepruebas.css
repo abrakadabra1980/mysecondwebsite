@@ -1,0 +1,18 @@
+.div1 {background-color: red;}
+.div2 {background-color:blue;}
+.div3 {background-color:green;}
+div {float:left;
+padding: 15px;
+}
+.perro1 {float:right;
+margin-left: 20px;
+width: 200px;
+height: 160px;
+}
+.perro2 {float:left;
+margin-right: 20px;
+width:250px;
+height: 180px;
+transform: rotate(90deg);
+}
+

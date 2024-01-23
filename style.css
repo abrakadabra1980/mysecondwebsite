@@ -1,0 +1,127 @@
+html, body {
+    margin:0
+}
+.top-container{
+    background-color: rgb(32, 204, 118);
+    height: 300px;
+    width: 100%;
+}
+.box1 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Caveat', cursive;
+
+    
+
+}
+.cajita {text-align: center;
+font-style: italic;
+}
+
+.ima1 {
+    width: 100%;
+    height: 350px;
+    opacity: .9;
+}
+.overlaytext {
+    position: absolute;
+    top:50%;
+    left:30%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+h4 {text-align:left;
+    margin-left: 100px;
+}
+ul {margin-left: 50px;
+    color: blue;
+    font-weight: bold;
+}
+.interm1:hover {
+    color:red;
+    cursor: pointer;
+    visibility: visible;  
+}
+.interm2:hover {
+    color:rgb(5, 5, 6);
+    cursor: pointer;
+    visibility: visible;  
+}
+.interm3:hover {
+    color:rgb(17, 255, 0);
+    cursor: pointer;
+    visibility: visible;  
+}
+.interm4:hover {
+    color:rgb(255, 0, 166);
+    cursor: pointer;
+    visibility: visible;  
+}
+.interm5:hover {
+    color:rgb(255, 234, 0);
+    cursor: pointer;
+    visibility: visible;  
+}
+.contact {text-align: center;
+color: rgb(53, 86, 99);
+}
+.lastbox {background-color: rgb(17, 208, 138);
+    text-align: center;
+    padding-top: 20PX;
+    
+height: 200px;
+
+
+}
+.contacto {color: black;}
+.contacto2 {color: black;}
+.contacto3 {color: black;}
+.tele {color: rgb(62, 155, 4);}
+
+.cv {background-color: rgb(14, 195, 219);
+display:grid;
+grid-template-columns: 2px ;
+}
+
+.grid-container  {
+    background-color: rgb(85, 234, 197);
+
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    padding: 20px;
+
+}
+
+.resume {
+    
+background-color: rgb(35, 192, 168);
+padding: 20PX;
+text-align: center;
+cursor: pointer;
+hover { color:red;
+    
+    transition-duration: 5s;
+
+}
+
+
+
+}
+
+.project {
+    background-color: rgb(35, 192, 168);
+   
+color: blue;
+padding: 20PX;
+text-align: center;
+cursor:pointer;
+hover { color:red;
+transition:color 1s;
+
+
+}
+
+
+}
+@media (max-width:200px) { p{font-size:8px; max-width:100%}}
